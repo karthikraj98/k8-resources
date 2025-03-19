@@ -1,7 +1,7 @@
-apiversion: v1
+apiVersion: v1
 kind: Namespace
-metadeta:
+metadata:
   name: expense
   labels:
-   project: expense
-   environment: dev
+    project: expense
+    environment: dev
