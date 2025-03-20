@@ -1,0 +1,15 @@
+apVersion: v1
+kind: service 
+metadata: 
+ name: ngnix
+spec:
+ selector:
+  project: expense
+  module: backend
+  environment: dev
+  ports:
+  - name: nginx-svc-port
+    protocal: tcp
+    port: 80 # service port
+    targetPort: 80 # container port
+    
