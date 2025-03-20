@@ -8,9 +8,9 @@ spec:
     project: expense
     module: backend
     environment: dev
-    ports: 
-    - name: nginx-np
-      protocol: TCP
-      port: 80 # service port
-      targetPort: 80 #container port
+  ports: 
+  - name: nginx-np
+    protocol: TCP
+    port: 80 # service port
+    targetPort: 80 #container port
   
